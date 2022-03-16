@@ -1,0 +1,28 @@
+(OpenADAS:9132): GStreamer-CRITICAL **: 12:16:47.708: 
+Trying to dispose element pipeline0, but it is in PAUSED instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+[ WARN:0] global /home/smartcam/opencv/modules/videoio/src/cap_gstreamer.cpp (886) open OpenCV | GStreamer warning: unable to start pipeline
+
+(OpenADAS:9132): GStreamer-CRITICAL **: 12:16:47.709: 
+Trying to dispose element videoconvert0, but it is in PLAYING instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+[ WARN:0] global /home/smartcam/opencv/modules/videoio/src/cap_gstreamer.cpp (480) isPipelinePlaying OpenCV | GStreamer warning: GStreamer: pipeline have not been created
+
+(OpenADAS:9132): GStreamer-CRITICAL **: 12:16:47.709: 
+Trying to dispose element appsink0, but it is in READY instead of the NULL state.
+You need to explicitly set elements to the NULL state before
+dropping the final reference, to allow them to clean up.
+This problem may also be caused by a refcounting bug in the
+application or some element.
+
+
+(OpenADAS:9132): GStreamer-CRITICAL **: 12:16:47.721: gst_element_post_message: assertion 'GST_IS_ELEMENT (element)' failed
+
